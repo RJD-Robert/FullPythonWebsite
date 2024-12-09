@@ -2,7 +2,7 @@
 name = "FullPythonWebsite"
 version = "0.0.0"
 description = "Building full website with python"
-authors = ["Robert Josef Domogalla <robert-domogalla@outlook.de>"]
+authors = ["Robert Josef Domogalla"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -12,6 +12,7 @@ flake8 = "^7.1.1"
 pylint = "^3.3.2"
 mypy = "^1.13.0"
 pytest = "^8.3.4"
+reflex = "^0.6.6.post2"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.13.2"
